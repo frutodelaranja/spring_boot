@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        table {
+            width: 50%;
+        }
+
+        table, th, td {
+            border: 2px solid MediumSlateBlue;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        table#t01 tr:nth-child(even) {
+            background-color: #eee;
+            color: SaddleBrown;
+        }
+
+        table#t01 tr:nth-child(odd) {
+            background-color: #fff;
+            color: SaddleBrown;
+        }
+
+        table#t01 th {
+            background-color: MediumSlateBlue;
+            color: white;
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<h2>Hello, Admin!</h2>
+<table id="t01">
+    <thead>
+    <tr>
+        <th>User</th>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Login</th>
+        <th>Password</th>
+        <th>change</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="user:${users}">
+        <td>
+            <li th:each="role:${user.roles}" th:text="${role.name}"></li>
+        </td>
+        <td th:text="${user.id}"></td>
+        <td th:text="${user.name}"></td>
+        <td th:text="${user.username}"></td>
+        <td th:text="${user.password}"></td>
+        <td>
+            <form th:action="@{/admin/edit}" method="get">
+                <button type="submit" onclick=input name="id" th:value="${user.id}">EDIT</button>
+            </form>
+            <form th:action="@{/admin/delete}" method="get">
+                <button type="submit" onclick=input name="id" th:value="${user.id}">DELETE</button>
+            </form>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<h3>Add New User</h3>
+
+<form th:action="@{/admin/save}" method="post" th:object="${newUser}">
+
+    <P><label><input type="hidden" th:field="*{id}" placeholder="ID"/></label></P>
+    <P><label><input type="text" th:field="*{name}" placeholder="Name"/></label></P>
+    <P><label><input type="text" th:field="*{username}" placeholder="Login"/></label></P>
+    <P><label><input type="text" th:field="*{password}" placeholder="Password"/></label></P>
+
+    <div>
+        <button>Save</button>
+    </div>
+
+</form>
+
+<div class="w3-container w3-center">
+    <div class="w3-bar w3-padding-large w3-padding-24">
+        <button class="w3-btn w3-hover-light-blue w3-round-large" onclick="location.href='logout'">Logout <i
+                class='fa fa-home'></i></button>
+    </div>
+</div>
+
+</body>
+</html>

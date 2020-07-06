@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e38554c7-ae5a-4104-b922-b7ff3ab10c95" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1e8tOHGo6u5S5ID43NFUnje46Vl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.spring_boot_Let.s_go.entity" />
+      <recent name="com.example.spring_boot_Let.s_go.service" />
+      <recent name="com.example.spring_boot_Let.s_go.security" />
+      <recent name="com.example.spring_boot_Let.s_go.repository" />
+      <recent name="com.example.spring_boot_Let.s_go.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="hu" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring_boot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.spring_boot.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e38554c7-ae5a-4104-b922-b7ff3ab10c95" name="Default Changelist" comment="" />
+      <created>1593715013938</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593715013938</updated>
+      <workItem from="1593715017426" duration="7307000" />
+      <workItem from="1593959783140" duration="11403000" />
+      <workItem from="1593986890225" duration="20730000" />
+      <workItem from="1594010693975" duration="212000" />
+      <workItem from="1594011023937" duration="1195000" />
+      <workItem from="1594012292169" duration="52000" />
+      <workItem from="1594012395219" duration="454000" />
+      <workItem from="1594012869487" duration="16000" />
+      <workItem from="1594012956385" duration="475000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1327" y="499" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594013232037">
+      <screen x="0" y="0" width="2560" height="1414" />
+    </state>
+    <state x="1327" y="499" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1414@0.0.2560.1414" timestamp="1594013232037" />
+    <state x="1601" y="634" width="525" height="411" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593716056795">
+      <screen x="0" y="0" width="2560" height="1414" />
+    </state>
+    <state x="1601" y="634" width="525" height="411" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1414@0.0.2560.1414" timestamp="1593716056795" />
+    <state width="1957" height="361" key="GridCell.Tab.0.bottom" timestamp="1594013431182">
+      <screen x="0" y="0" width="2560" height="1414" />
+    </state>
+    <state width="1957" height="361" key="GridCell.Tab.0.bottom/0.0.2560.1414@0.0.2560.1414" timestamp="1594013431181" />
+    <state width="1957" height="361" key="GridCell.Tab.0.center" timestamp="1594013431180">
+      <screen x="0" y="0" width="2560" height="1414" />
+    </state>
+    <state width="1957" height="361" key="GridCell.Tab.0.center/0.0.2560.1414@0.0.2560.1414" timestamp="1594013431180" />
+    <state width="1957" height="361" key="GridCell.Tab.0.left" timestamp="1594013431179">
+      <screen x="0" y="0" width="2560" height="1414" />
+    </state>
+    <state width="1957" height="361" key="GridCell.Tab.0.left/0.0.2560.1414@0.0.2560.1414" timestamp="1594013431179" />
+    <state width="1957" height="361" key="GridCell.Tab.0.right" timestamp="1594013431180">
+      <screen x="0" y="0" width="2560" height="1414" />
+    </state>
+    <state width="1957" height="361" key="GridCell.Tab.0.right/0.0.2560.1414@0.0.2560.1414" timestamp="1594013431180" />
+    <state width="1957" height="361" key="GridCell.Tab.1.bottom" timestamp="1594013431182">
+      <screen x="0" y="0" width="2560" height="1414" />
+    </state>
+    <state width="1957" height="361" key="GridCell.Tab.1.bottom/0.0.2560.1414@0.0.2560.1414" timestamp="1594013431182" />
+    <state width="1957" height="361" key="GridCell.Tab.1.center" timestamp="1594013431182">
+      <screen x="0" y="0" width="2560" height="1414" />
+    </state>
+    <state width="1957" height="361" key="GridCell.Tab.1.center/0.0.2560.1414@0.0.2560.1414" timestamp="1594013431182" />
+    <state width="1957" height="361" key="GridCell.Tab.1.left" timestamp="1594013431182">
+      <screen x="0" y="0" width="2560" height="1414" />
+    </state>
+    <state width="1957" height="361" key="GridCell.Tab.1.left/0.0.2560.1414@0.0.2560.1414" timestamp="1594013431182" />
+    <state width="1957" height="361" key="GridCell.Tab.1.right" timestamp="1594013431182">
+      <screen x="0" y="0" width="2560" height="1414" />
+    </state>
+    <state width="1957" height="361" key="GridCell.Tab.1.right/0.0.2560.1414@0.0.2560.1414" timestamp="1594013431182" />
+    <state x="1350" y="406" width="924" height="681" key="Maven.ArtifactSearchDialog" timestamp="1593719023630">
+      <screen x="0" y="0" width="2560" height="1414" />
+    </state>
+    <state x="1350" y="406" width="924" height="681" key="Maven.ArtifactSearchDialog/0.0.2560.1414@0.0.2560.1414" timestamp="1593719023630" />
+    <state x="1352" y="419" width="1024" height="842" key="SettingsEditor" timestamp="1594012995705">
+      <screen x="0" y="0" width="2560" height="1414" />
+    </state>
+    <state x="1352" y="419" width="1024" height="842" key="SettingsEditor/0.0.2560.1414@0.0.2560.1414" timestamp="1594012995705" />
+    <state x="1570" y="465" width="577" height="472" key="refactoring.ChangeSignatureDialog" timestamp="1593998086367">
+      <screen x="0" y="0" width="2560" height="1414" />
+    </state>
+    <state x="1570" y="465" width="577" height="472" key="refactoring.ChangeSignatureDialog/0.0.2560.1414@0.0.2560.1414" timestamp="1593998086367" />
+  </component>
+</project>

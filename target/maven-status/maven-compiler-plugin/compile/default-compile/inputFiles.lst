@@ -1,0 +1,11 @@
+/home/evgeny/dev/spring_boot/src/main/java/com/example/spring_boot/repository/UserDaoImpl.java
+/home/evgeny/dev/spring_boot/src/main/java/com/example/spring_boot/service/UserDetailsServiceImpl.java
+/home/evgeny/dev/spring_boot/src/main/java/com/example/spring_boot/controller/UserController.java
+/home/evgeny/dev/spring_boot/src/main/java/com/example/spring_boot/service/UserServiceImpl.java
+/home/evgeny/dev/spring_boot/src/main/java/com/example/spring_boot/security/SuccessUserHandler.java
+/home/evgeny/dev/spring_boot/src/main/java/com/example/spring_boot/entity/Role.java
+/home/evgeny/dev/spring_boot/src/main/java/com/example/spring_boot/repository/UserDao.java
+/home/evgeny/dev/spring_boot/src/main/java/com/example/spring_boot/service/UserService.java
+/home/evgeny/dev/spring_boot/src/main/java/com/example/spring_boot/entity/User.java
+/home/evgeny/dev/spring_boot/src/main/java/com/example/spring_boot/Application.java
+/home/evgeny/dev/spring_boot/src/main/java/com/example/spring_boot/security/SecurityConfig.java

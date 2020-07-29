@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.function.DoubleToIntFunction;
 
 @Controller
 @RequestMapping("")
@@ -24,9 +25,6 @@ public class UserController {
     public String getAdminPage(Model model, Authentication authentication) {
         User userAuthority = userService.findByLogin(authentication.getName());
         List<User> users = userService.listUsers();
-        Set<Role> roles = new HashSet<>();
-        User newUser = new User();
-        newUser.setRoles(roles);
         model.addAttribute("userAuthority", userAuthority);
         model.addAttribute("users", users);
         model.addAttribute("newUser", (new User()));
@@ -40,23 +38,9 @@ public class UserController {
         return "/user";
     }
 
-//    @GetMapping("/admin/edit")
-//    public String getEditPage(@RequestParam(value = "id") Long id, Model model) {
-//        User editUser = userService.findById(id);
-//        model.addAttribute("editUser", editUser);
-//        return "/edit";
-//    }
-
-    @GetMapping("/admin/edit")
-    public String getEditPage(@RequestParam(value = "id") Long id, Model model) {
-        User editUser = userService.findById(id);
-        model.addAttribute("editUser", editUser);
-        return "/admin";
-    }
-
     @PostMapping("/admin/edit")
-    public String editUser(@ModelAttribute("user") User user) {
-        userService.edit(user);
+    public String editUser(@ModelAttribute("editUser") User editUser, Model model) {
+        userService.edit(editUser);
         return "redirect:/admin";
     }
 
